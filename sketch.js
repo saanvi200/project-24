@@ -93,17 +93,17 @@ function draw() {
 //   }
 // }
 
-// function keyPressed() {
-//   if (keyCode === 23) {
-//     var posX = playerArcher.body.position.x;
-//     var posY = playerArcher.body.position.y;
-//     var angle = playerArcher.body.angle;
-//     var arrow = new PlayerArrow(posX, posY, 100, 10, angle);
+function keyPressed() {
+   if (keyCode === 23) {
+     var posX = playerArcher.body.position.x;
+     var posY = playerArcher.body.position.y;
+     var angle = playerArcher.body.angle;
+     var arrow = new PlayerArrow(posX, posY, 100, 10, angle);
 
-//     Matter.Body.setAngle(arrow.body, angle);
-//     playerArrows.push(arrow);
-//   }
-// }
+     Matter.Body.setAngle(arrow.body, angle);
+     playerArrows.push(arrow);
+  }
+ }
 
 // function keyPressed() {
 //   if (keyCode === 32) {
@@ -129,11 +129,11 @@ function draw() {
 //   }
 // }
 
-function keyReleased() {
-  if (keyCode === 32) {
-    if (playerArrows.length) {
-      var angle = playerArcher.body.angle;
-      playerArrows[playerArrows.length - 1].shoot(angle);
-    }
+//function keyReleased() {
+  //if (keyCode === 32) {
+   // if (playerArrows.length) {
+     // var angle = playerArcher.body.angle;
+    //  playerArrows[playerArrows.length - 1].shoot(angle);
+  //  }
   }
 }
