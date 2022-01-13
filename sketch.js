@@ -62,11 +62,11 @@ function draw() {
    //   }
    // }
   
-   // for (var i = 0; i < playerArrows.length; i++) {
-   //   if (playerArrows[i] !== undefined) {
-   //     playerArrows[i].display();
-   //   }
-   // }
+    for (var i = 0; i < playerArrows.length; i++) {
+      if (playerArrows[i] !== undefined) {
+        playerArrows[i].display();
+      }
+   }
 
    // for (var i) {
    //   if (playerArrows[i] !== undefined) {
