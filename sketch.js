@@ -102,8 +102,7 @@ function draw() {
 
   // Matter.Body.setAngle(arrow.body, angle);
   // playerArrows.push(arrow);
-  }
- }
+  
 
 // function keyPressed() {
 //   if (keyCode === 32) {
